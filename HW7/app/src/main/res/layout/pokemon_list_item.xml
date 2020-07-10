@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="#B3AFDAFD">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="128dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="277dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="83dp"
+        android:text="TextView"
+        android:textColor="#4b4b4b"
+        android:textSize="40dp"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="7dp"
+        android:fontFamily="sans-serif-light"
+        android:text="314"
+        android:textColor="#4b4b4b"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="7dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Total:  "
+        android:textColor="#4b4b4b"
+        android:textSize="30dp" />
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/trash1"
+        android:layout_width="47dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="363dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="1dp"
+        android:src="@drawable/trash_icon" />
+
+</RelativeLayout>
